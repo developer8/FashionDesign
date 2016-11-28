@@ -1,0 +1,1 @@
+package com.fashion.binge.fashiondesign.interfaces;import android.widget.TextView;/** * Created by gokarna on 25/05/16. */public interface UpdateCartInfoHolder {    void onCartUpdate(String key,String quantity, TextView textView,String operation);}

@@ -1,0 +1,1 @@
+package com.fashion.binge.fashiondesign.interfaces;/** * Created by gokarna on 09/06/16. */public interface EditAddressInfoHolder {     void onEditAddressClicked(int position);}

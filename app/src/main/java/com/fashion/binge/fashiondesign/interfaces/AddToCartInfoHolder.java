@@ -1,0 +1,1 @@
+package com.fashion.binge.fashiondesign.interfaces;/** * Created by gokarna on 19/05/16. */public interface AddToCartInfoHolder {    void cartResponse(String status,String totalItemInCart);}

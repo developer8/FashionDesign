@@ -1,0 +1,1 @@
+package com.fashion.binge.fashiondesign.interfaces;import com.fashion.binge.fashiondesign.sweetalertdialog.SweetAlertDialog;/** * Created by gokarna on 14/07/16. */public interface DeleteCartInterface {    void onCartDelete(SweetAlertDialog sweetAlertDialog);}

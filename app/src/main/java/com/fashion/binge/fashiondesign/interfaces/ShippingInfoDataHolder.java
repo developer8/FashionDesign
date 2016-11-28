@@ -1,0 +1,1 @@
+package com.fashion.binge.fashiondesign.interfaces;import android.widget.Button;import java.util.Map;/** * Created by gokarna on 06/06/16. */public interface ShippingInfoDataHolder {    void setShippingInfoDataHolder(Map<Integer,Double> map, Button button);}

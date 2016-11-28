@@ -1,0 +1,1 @@
+package com.fashion.binge.fashiondesign.interfaces;public interface LoginAndSignUpMessageSender {    void setLoginAndSignUpMessage();}

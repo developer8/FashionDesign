@@ -1,0 +1,1 @@
+package com.fashion.binge.fashiondesign.interfaces;/** * Created by gokarna on 24/05/16. */public interface ShippingMethodSelectionIdentifier {    void onShippingMethodSelected(String shippingMethodId,String sellerDescrition,String cost,String unformattedCost);}

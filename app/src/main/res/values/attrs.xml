@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BlurDrawerLayout">
+        <attr name="blurRadius" format="integer" />
+        <attr name="downScaleFactor" format="float" />
+        <attr name="drawerUpImageId" format="reference" />
+        <attr name="openDescription" format="reference" />
+        <attr name="closeDescription" format="reference" />
+        <attr name="toolbar" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0" />
+            <enum name="y" value="1" />
+            <enum name="z" value="2" />
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction" />
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+    <declare-styleable name="FancyCoverFlow">
+        <attr name="unselectedAlpha" format="float" />
+        <attr name="unselectedSaturation" format="float" />
+        <attr name="unselectedScale" format="float" />
+        <attr name="maxRotation" format="integer" />
+        <attr name="scaleDownGravity" format="float" />
+        <attr name="actionDistance" format="integer">
+            <enum name="auto" value="2147483647" />
+        </attr>
+    </declare-styleable>
+   <!-- <declare-styleable name="RangeSeekbar">
+        <attr name="seekbarHeight" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="spaceBetween" format="dimension" />
+
+        <attr name="leftCursorBackground" format="reference" />
+        <attr name="rightCursorBackground" format="reference" />
+        <attr name="markTextArray" format="reference" />
+
+        <attr name="textColorNormal" format="color" />
+        <attr name="textColorSelected" format="color" />
+        <attr name="seekbarColorNormal" format="color" />
+        <attr name="seekbarColorSelected" format="color" />
+
+        <attr name="autoMoveDuration" format="integer" />
+
+    </declare-styleable>-->
+</resources>

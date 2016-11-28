@@ -1,0 +1,1 @@
+package com.fashion.binge.fashiondesign.interfaces;/** * Created by gokarna on 24/05/16. */public interface ShippingValidator {    void onShippingValidation(double subTotal,double shipping,double total,double coupon,String couponTitle);}
